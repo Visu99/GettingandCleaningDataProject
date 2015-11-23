@@ -1,8 +1,8 @@
-TITLE: CODE BOOK
+#TITLE: CODE BOOK
 
-PURPOSE:  Describes the variables, the data, and transformations or work performed to clean up
+#PURPOSE:  Describes the variables, the data, and transformations or work performed to clean up
 
-INTRODUCTION:
+#INTRODUCTION:
 
 	One of the most exciting areas in all of data science right now is wearable computing - see for example this article . 
 	Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
@@ -20,7 +20,8 @@ INTRODUCTION:
 	
 	
 
-PRELIMINARY FINDINGS:  The test and train data sets have similar format.  The common information for both of these data sets is:
+#PRELIMINARY FINDINGS:  
+The test and train data sets have similar format.  The common information for both of these data sets is:
 		F.1) features.txt contains 561 different features or measurements that were taken
 		F.2) features_info.txt contains descriptions of the above different measurements
 		F.3) activity_labels.txt contains the the numerical id of 6 different activities for which above activities were performed. 1 means walking.  2 means walking upstairs and so on.
@@ -33,7 +34,7 @@ PRELIMINARY FINDINGS:  The test and train data sets have similar format.  The co
 		
 		Train Data Set: has similar format as Test Data Set but has 7952 records.
 		
-STEPS TAKEN TO GENERATE TIDY DATA FROM RAW DATA:
+#STEPS TAKEN TO GENERATE TIDY DATA FROM RAW DATA:
 
 	1) Read the test data set files X_test.txt, y_test.txt, subject_test.txt into data frames
 	2) Name the y_test data frame to activity because these correspond to activity (see F.6)
@@ -73,5 +74,6 @@ OUTPUT:
 	tidyData.txt can be read using read.table() command.
 	
 
-JUSTIFICATION:
-	tidyData.txt contains data that is more readable and easier to understand.  
+#NOTES
+	tidyData.txt contains data that is more readable and easier to understand than the raw data.  
+	SORT ORDER - Data within tidyData.txt can be sorted to desired format - such as by person first, then by activityDescription, then measuredVariable if desired.  Other sort orders may be easier to use depending on how data will be used by the user.
