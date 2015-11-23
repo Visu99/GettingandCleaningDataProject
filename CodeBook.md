@@ -21,7 +21,7 @@
 	
 
 #PRELIMINARY FINDINGS:  
-The test and train data sets have similar format.  The common information for both of these data sets is:
+	The test and train data sets have similar format.  The common information for both of these data sets is:
 		F.1) features.txt contains 561 different features or measurements that were taken
 		F.2) features_info.txt contains descriptions of the above different measurements
 		F.3) activity_labels.txt contains the the numerical id of 6 different activities for which above activities were performed. 1 means walking.  2 means walking upstairs and so on.
@@ -64,7 +64,7 @@ The test and train data sets have similar format.  The common information for bo
 	
 	15) Save the file with data separated by tabs.
 	
-OUTPUT:
+#OUTPUT:
 	The tidyData.txt file generated has these columns: "activityDescription"		"personID"		"measuredVariable"		"meanOfObservations"
 	"activityDescription"	- refers to the activity - walking, walkingUpstairs etc..	
 	"personID"		- refers to the subject or person or volunteer number
