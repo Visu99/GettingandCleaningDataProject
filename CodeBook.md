@@ -1,6 +1,7 @@
 #TITLE: CODE BOOK
 
-#PURPOSE:  Describes the variables, the data, and transformations or work performed to clean up
+#PURPOSE:  
+	Describes the variables, the data, and transformations or work performed to clean up
 
 #INTRODUCTION:
 
